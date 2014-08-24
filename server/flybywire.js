@@ -1,6 +1,6 @@
 var ws = require('nodejs-websocket');
 var port = 8000;
-var eventLibrary = require('./events.js');
+var eventLibrary = require('./eventLibrary.js');
 var chalk = require('chalk');
 
 var connection = ws.connect('ws://10.7.18.230:' + port, function(){
