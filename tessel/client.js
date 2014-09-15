@@ -2,7 +2,7 @@ var ws = require("nodejs-websocket");
 var port = 8000;
 var eventLibrary = require('./events.js');
 
-require('tesselate')(['accel-mma84'], function(tessel, m){
+require('tesselate')(['ambient-attx4'], function(tessel, m){
 
   var server = ws.createServer(function(connection){
     console.log("new connection!");
